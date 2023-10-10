@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import com.ninjademo.aq.Pages.HomePage;
 import com.ninjademo.qa.base.TestBase;
 
-public class HomePageTest extends TestBase {
+public class HomePageTest extends TestBase  {
 	
 	HomePage hp ;
 	

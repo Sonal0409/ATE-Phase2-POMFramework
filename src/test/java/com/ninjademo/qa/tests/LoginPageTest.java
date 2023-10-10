@@ -3,12 +3,14 @@ package com.ninjademo.qa.tests;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ninjademo.aq.Pages.HomePage;
 import com.ninjademo.aq.Pages.LoginPage;
 import com.ninjademo.qa.base.TestBase;
 
+@Listeners({ITestListernerClass.class})
 public class LoginPageTest extends TestBase {
 	
 HomePage hp ;

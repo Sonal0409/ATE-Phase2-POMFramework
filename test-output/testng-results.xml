@@ -1,93 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-05T18:50:42 IST" name="Default suite" finished-at="2023-10-05T18:51:02 IST" duration-ms="20059">
+  <suite started-at="2023-10-09T17:33:13 IST" name="Functiontest" finished-at="2023-10-09T17:33:51 IST" duration-ms="38119">
     <groups>
     </groups>
-    <test started-at="2023-10-05T18:50:42 IST" name="Default test" finished-at="2023-10-05T18:51:02 IST" duration-ms="20059">
-      <class name="com.ninjademo.qa.tests.RegisterPageTest">
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninjademo.qa.tests.RegisterPageTest@235ecd9f]" started-at="2023-10-05T18:50:43 IST" name="OpenApp" finished-at="2023-10-05T18:50:52 IST" duration-ms="8352" status="PASS">
+    <test started-at="2023-10-09T17:33:13 IST" name="TestCycle1" finished-at="2023-10-09T17:33:51 IST" duration-ms="38119">
+      <class name="com.ninjademo.qa.tests.LoginPageTest">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:20 IST" name="OpenApp" finished-at="2023-10-09T17:33:23 IST" duration-ms="3118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="RegisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninjademo.qa.tests.RegisterPageTest@235ecd9f]" started-at="2023-10-05T18:50:52 IST" name="RegisterUser" data-provider="testdata" finished-at="2023-10-05T18:50:55 IST" duration-ms="2873" status="PASS">
+        <test-method signature="loginInvalidCredentials()[pri:2, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:23 IST" name="loginInvalidCredentials" finished-at="2023-10-09T17:33:26 IST" duration-ms="2749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidCredentials -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:26 IST" name="CloseBrowser" finished-at="2023-10-09T17:33:27 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="generatestatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:27 IST" name="generatestatus" finished-at="2023-10-09T17:33:27 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Ravi]]>
+                <![CDATA[public void com.ninjademo.qa.tests.LoginPageTest.loginInvalidCredentials() throws java.lang.InterruptedException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Ravi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ravidemo@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2.345678901E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1234.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[1234.0]]>
+                <![CDATA[[TestResult name=loginInvalidCredentials status=SUCCESS method=LoginPageTest.loginInvalidCredentials()[pri:2, instance:com.ninjademo.qa.tests.LoginPageTest@14028087] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegisterUser -->
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninjademo.qa.tests.RegisterPageTest@235ecd9f]" started-at="2023-10-05T18:50:55 IST" name="OpenApp" finished-at="2023-10-05T18:51:00 IST" duration-ms="5037" status="PASS">
+        </test-method> <!-- generatestatus -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:27 IST" name="OpenApp" finished-at="2023-10-09T17:33:30 IST" duration-ms="2913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="RegisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:com.ninjademo.qa.tests.RegisterPageTest@235ecd9f]" started-at="2023-10-05T18:51:00 IST" name="RegisterUser" data-provider="testdata" finished-at="2023-10-05T18:51:02 IST" duration-ms="2652" status="PASS">
+        <test-method signature="forgetpasswordtest()[pri:3, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:30 IST" name="forgetpasswordtest" finished-at="2023-10-09T17:33:32 IST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpasswordtest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:32 IST" name="CloseBrowser" finished-at="2023-10-09T17:33:33 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="generatestatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:33 IST" name="generatestatus" finished-at="2023-10-09T17:33:33 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[John]]>
+                <![CDATA[public void com.ninjademo.qa.tests.LoginPageTest.forgetpasswordtest() throws java.lang.InterruptedException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[John]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Johndemo@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2.345538901E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[abc@123]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[abc@123]]>
+                <![CDATA[[TestResult name=forgetpasswordtest status=SUCCESS method=LoginPageTest.forgetpasswordtest()[pri:3, instance:com.ninjademo.qa.tests.LoginPageTest@14028087] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegisterUser -->
-      </class> <!-- com.ninjademo.qa.tests.RegisterPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- generatestatus -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:33 IST" name="OpenApp" finished-at="2023-10-09T17:33:48 IST" duration-ms="15109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="loginValidCredentials()[pri:49, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:48 IST" name="loginValidCredentials" finished-at="2023-10-09T17:33:51 IST" duration-ms="2837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidCredentials -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:51 IST" name="CloseBrowser" finished-at="2023-10-09T17:33:51 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="generatestatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjademo.qa.tests.LoginPageTest@14028087]" started-at="2023-10-09T17:33:51 IST" name="generatestatus" finished-at="2023-10-09T17:33:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjademo.qa.tests.LoginPageTest.loginValidCredentials() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loginValidCredentials status=SUCCESS method=LoginPageTest.loginValidCredentials()[pri:49, instance:com.ninjademo.qa.tests.LoginPageTest@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generatestatus -->
+      </class> <!-- com.ninjademo.qa.tests.LoginPageTest -->
+      <class name="com.ninjademo.qa.tests.HomePageTest">
+        <test-method is-config="true" signature="InitializeExtentreport()[pri:0, instance:com.ninjademo.qa.tests.HomePageTest@5032714f]" started-at="2023-10-09T17:33:12 IST" name="InitializeExtentreport" finished-at="2023-10-09T17:33:13 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeExtentreport -->
+        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:com.ninjademo.qa.tests.HomePageTest@5032714f]" started-at="2023-10-09T17:33:13 IST" name="getnameMethod" finished-at="2023-10-09T17:33:13 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@25c2a9e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getnameMethod -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninjademo.qa.tests.HomePageTest@5032714f]" started-at="2023-10-09T17:33:13 IST" name="OpenApp" finished-at="2023-10-09T17:33:18 IST" duration-ms="5327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="testTitle()[pri:0, instance:com.ninjademo.qa.tests.HomePageTest@5032714f]" started-at="2023-10-09T17:33:18 IST" name="testTitle" finished-at="2023-10-09T17:33:18 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="generatestatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjademo.qa.tests.HomePageTest@5032714f]" started-at="2023-10-09T17:33:18 IST" name="generatestatus" finished-at="2023-10-09T17:33:18 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjademo.qa.tests.HomePageTest.testTitle()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testTitle status=SUCCESS method=HomePageTest.testTitle()[pri:0, instance:com.ninjademo.qa.tests.HomePageTest@5032714f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generatestatus -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninjademo.qa.tests.HomePageTest@5032714f]" started-at="2023-10-09T17:33:18 IST" name="CloseApp" finished-at="2023-10-09T17:33:20 IST" duration-ms="1456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="generateExtenetReport()[pri:0, instance:com.ninjademo.qa.tests.HomePageTest@5032714f]" started-at="2023-10-09T17:33:51 IST" name="generateExtenetReport" finished-at="2023-10-09T17:33:53 IST" duration-ms="1720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtenetReport -->
+      </class> <!-- com.ninjademo.qa.tests.HomePageTest -->
+    </test> <!-- TestCycle1 -->
+  </suite> <!-- Functiontest -->
 </testng-results>
